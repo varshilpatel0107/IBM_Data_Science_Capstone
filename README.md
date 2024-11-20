@@ -1,25 +1,64 @@
-Applied Data Science Capstone
-This capstone project marks the culmination of the IBM Data Science Professional Certificate specialization, summarizing the skills and knowledge acquired throughout the program into a comprehensive project.
+# Applied Data Science Capstone  
 
-Project Overview
-SpaceX has revolutionized commercial space travel by significantly lowering costs. While other providers charge upwards of $165 million per launch, a Falcon 9 rocket launch costs just $62 million, thanks to SpaceX’s ability to reuse the rocket’s first stage. Predicting the success of a first-stage landing can help estimate launch costs. This project uses publicly available data and machine learning models to determine the likelihood of reusing the first stage.
+This project is part of the final course in the IBM Data Science Professional Certificate specialization. It demonstrates the application of data science concepts and techniques to a real-world scenario, focusing on SpaceX's reusable rocket technology.  
 
-Key Questions
-How do factors such as payload mass, launch site, number of flights, and orbit type influence the success of first-stage landings?
-Has the success rate of first-stage landings improved over time?
-What is the most effective algorithm for binary classification in this case?
-Methodology
-1. Data Collection
-SpaceX REST API
-Web scraping from Wikipedia
-2. Data Wrangling
-Filtering data for relevance
-Handling missing values
-Applying One-Hot Encoding for binary classification
-3. Exploratory Data Analysis (EDA)
-Visualizing data to uncover trends and patterns
-Conducting detailed analysis using SQL
-4. Interactive Visual Analytics
-Developing dynamic visuals with Folium and Plotly Dash
-5. Predictive Analysis
-Building, tuning, and evaluating classification models to select the best approach for accurate predictions
+---
+
+## Project Overview  
+SpaceX has disrupted the commercial space industry by drastically reducing launch costs through its reusable rocket technology. A Falcon 9 rocket launch costs $62 million, compared to $165 million charged by other providers. The key to this cost efficiency is reusing the first stage of the rocket.  
+This project aims to predict the likelihood of a successful first-stage landing using public data and machine learning models.  
+
+---
+
+## Key Questions  
+1. How do variables such as payload mass, launch site, number of flights, and orbit type affect the success of first-stage landings?  
+2. Has the success rate of landings improved over time?  
+3. Which machine learning algorithm is best suited for binary classification in this scenario?  
+
+---
+
+## Methodology  
+
+### 1. Data Collection  
+- **Sources**:  
+  - SpaceX REST API  
+  - Web scraping from Wikipedia  
+
+### 2. Data Wrangling  
+- Filtering relevant data  
+- Handling missing values  
+- Encoding categorical variables using One-Hot Encoding  
+
+### 3. Exploratory Data Analysis (EDA)  
+- Visualizing relationships and trends  
+- SQL for in-depth analysis  
+
+### 4. Interactive Visual Analytics  
+- Tools used:  
+  - **Folium** for geospatial visualizations  
+  - **Plotly Dash** for interactive dashboards  
+
+### 5. Predictive Analysis  
+- Building, tuning, and evaluating machine learning classification models to ensure accuracy  
+
+---
+
+## Results and Insights  
+- Insights on the factors influencing successful landings  
+- Evaluation of the best-performing classification model for predicting outcomes  
+- Trends in success rates over time  
+
+---
+
+## Tools and Technologies  
+- **Programming Language**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Plotly, Folium  
+- **Data Access**: SpaceX REST API, Web scraping  
+- **Machine Learning**: Binary classification models  
+
+---
+
+## How to Run the Project  
+1. Clone this repository:  
+   ```bash
+   git clone <repository-url>
